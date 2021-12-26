@@ -24,7 +24,6 @@ PINs = []
 def get_sum(number):
     sum_of_digits = 0
     for digit in str(number):
-        print(digit)
         sum_of_digits += int(digit)
 
     return sum_of_digits
